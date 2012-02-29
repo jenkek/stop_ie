@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source :rubygems
 
 # Declare your gem's dependencies in stop_ie.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
