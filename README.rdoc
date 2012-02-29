@@ -1,3 +1,24 @@
 = StopIe
 
+Stop usage Internet Explorer version 7 and less!
+
+== Usage
+
+Gemfile:
+
+  gem 'stop_ie'
+
+to <head> layout/application:
+
+  <!--[if lte IE 7]>
+  <%= stylesheet_link_tag    'stop_ie/application' %>
+  <%= javascript_include_tag 'stop_ie/application' %>
+  <![endif]-->
+
+=== Dependencies
+
+Gems: jquery-rails, sass-rails
+
+== License
+
 This project rocks and uses MIT-LICENSE.

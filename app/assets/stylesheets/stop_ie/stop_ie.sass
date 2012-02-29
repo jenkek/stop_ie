@@ -1,0 +1,77 @@
+/* Welcome to Compass. Use this file to alert IE use users.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if lte IE 7]>
+ *   <%= stylesheet_link_tag    "stop_ie/application" %>
+ *   <%= javascript_include_tag "stop_ie/application" %>
+ * <![endif]-->
+ */
+
+#ie6stop
+  background-color: #feefda
+  border-bottom: 1px solid #f7941d
+  color: black
+  display: block !important
+  font-family: Arial, Verdana, sans-serif
+  font-size: 12px
+  height: 130px
+  left: 0
+  margin: 0
+  padding: 0 0 5px 0
+  position: absolute
+  text-align: left
+  top: 0
+  top: expression(eval(document.documentElement.scrollTop))
+  width: 100%
+  z-index: 999999
+  div, p
+    margin-bottom: 0
+  .browsers p
+    line-height: 22px
+  .browsers div
+    font-size: 11px
+    line-height: 16px
+  b
+    font-weight: bold
+  .cornerx
+    background: url("cornerx.png") no-repeat
+    display: block
+    float: right
+    height: 16px
+    margin: 5px 5px 0 0
+    overflow: hidden
+    text-indent: -99px
+    width: 16px
+  .browsers
+    height: 90px
+    margin: 0 auto
+    width: 900px
+    p
+      background: url("warning.png") no-repeat left
+      float: left
+      font-family: Arial, Verdana, sans-serif
+      margin: 10px 10px 0 0
+      padding-left: 70px
+      width: 520px
+    .firefox, .safari, .chrome, .ie8, .opera
+      display: block
+      float: left
+      height: 73px
+      margin-right: 10px
+      overflow: hidden
+      text-indent: -9999em
+      width: 49px
+  .firefox
+    background: url("firefox.png")
+  .safari
+    background: url("safari.png")
+  .chrome
+    background: url("chrome.png")
+  .ie8
+    background: url("ie8.png")
+  .opera
+    background: url("opera.png") no-repeat
+    height: 49px
+  .browsers div
+    font-family: Arial, Verdana, sans-serif
+    padding-right: 6px
+    text-align: center
