@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = StopIe::VERSION
   s.authors     = ["Evgeny Lapin"]
   s.email       = ["lev@openteam.ru"]
-  s.homepage    = "https://github.com/openteam/stop_ie"
+  s.homepage    = "https://github.com/jenkek/stop_ie"
   s.summary     = "Stop IE."
   s.description = "Stop usage Internet Explorer version 7 and less!"
 
