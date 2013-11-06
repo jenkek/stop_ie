@@ -14,7 +14,7 @@ $(function() {
         "<div>Если Вы не уверены, что сможете самостоятельно обновить интернет-браузер, обратитесь в службу IT-поддержки</div>" +
       "</div>" +
     "</div>");
-  $("#ie6stop .cornerx").live("click", function() {
+  $("#ie6stop .cornerx").bind("click", function() {
     $("#ie6stop").remove();
     $("body").css("padding-top", "0");
     return false;
