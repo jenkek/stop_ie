@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/jenkek/stop_ie"
   s.summary     = "Stop IE."
   s.description = "Stop usage Internet Explorer version 7 and less!"
+  s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
