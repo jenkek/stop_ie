@@ -1,6 +1,6 @@
 = StopIe
 
-Stop usage Internet Explorer version 7 and less!
+Stop usage Internet Explorer version 8 and less!
 
 == Usage
 
@@ -10,7 +10,7 @@ Gemfile:
 
 to <head> layout/application:
 
-  <!--[if lte IE 7]>
+  <!--[if lte IE 8]>
   <%= stylesheet_link_tag    'stop_ie/application' %>
   <%= javascript_include_tag 'stop_ie/application' %>
   <![endif]-->
