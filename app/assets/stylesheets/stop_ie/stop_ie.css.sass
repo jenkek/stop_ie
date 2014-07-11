@@ -1,11 +1,10 @@
 /* Welcome to Compass. Use this file to alert IE use users.
  * Import this file using the following HTML or equivalent:
- * <!--[if lte IE 7]>
+ * <!--[if lte IE 8]>
  *   <%= stylesheet_link_tag    "stop_ie/application" %>
  *   <%= javascript_include_tag "stop_ie/application" %>
  * <![endif]-->
  */
-
 #ie6stop
   background-color: #feefda
   border-bottom: 1px solid #f7941d
@@ -33,7 +32,7 @@
   b
     font-weight: bold
   .cornerx
-    background: image_url("cornerx.png") no-repeat
+    background: image-url("stop_ie/cornerx.png") no-repeat
     display: block
     float: right
     height: 16px
@@ -46,13 +45,13 @@
     margin: 0 auto
     width: 900px
     p
-      background: image_url("warning.png") no-repeat left
+      background: image-url("stop_ie/warning.png") no-repeat left
       float: left
       font-family: Arial, Verdana, sans-serif
       margin: 10px 10px 0 0
       padding-left: 70px
-      width: 520px
-    .firefox, .safari, .chrome, .ie8, .opera
+      width: 580px
+    .firefox, .safari, .chrome, .ie9, .opera
       display: block
       float: left
       height: 73px
@@ -60,16 +59,19 @@
       overflow: hidden
       text-indent: -9999em
       width: 49px
+    .links
+      display: block
+      float: right
   .firefox
-    background: image_url("firefox.png")
+    background: image-url("stop_ie/firefox.png")
   .safari
-    background: image_url("safari.png")
+    background: image-url("stop_ie/safari.png")
   .chrome
-    background: image_url("chrome.png")
-  .ie8
-    background: image_url("ie8.png")
+    background: image-url("stop_ie/chrome.png")
+  .ie9
+    background: image-url("stop_ie/ie9.png")
   .opera
-    background: image_url("opera.png") no-repeat
+    background: image-url("stop_ie/opera.png") no-repeat
     height: 49px
   .browsers div
     font-family: Arial, Verdana, sans-serif
